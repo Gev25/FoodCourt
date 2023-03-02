@@ -1,0 +1,102 @@
+.login {
+  width: 100%;
+  padding: 40rem;
+
+  & .container {
+    height: 100%;
+    padding: 2rem;
+    background-color: #0a071a;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 5.6rem;
+    color: #F76E11;
+    font-weight: 400;
+    font-family: "Yesteryear", sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  &__forgot{
+    font-size: 1.6rem;
+    color: #151824;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    background-color: unset;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+  }
+
+  &__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+
+    &__box {
+      width: 50rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    &__btn__container{
+      width: 100%;
+      display: flex;
+    }
+
+    &__label {
+      font-size: 2rem;
+      color: #F76E11;
+      font-weight: 500;
+      font-family: "Raleway", sans-serif;
+    }
+
+    &__input {
+      width: 50%;
+      padding: 1rem;
+      border: .1rem solid #151824;
+      outline: 0;
+      font-family: 'Vollkorn', sans-serif;
+      font-size: 1.5rem;
+      color: #151824;
+    }
+
+    &__submit {
+      left: 0;
+      right: 0;
+      margin: 2rem auto 0;
+    }
+
+    &__phone {
+      width: 50%;
+    }
+
+    .PhoneInput {
+      &Input {
+        width: 50%;
+        padding: 1rem;
+        border: .1rem solid #000;
+        outline: 0;
+        font-family: 'Vollkorn', sans-serif;
+        font-size: 1.5rem;
+      }
+
+      &Country {
+        width: 3rem;
+
+        &Icon {
+          width: 100% !important;
+          height: 100% !important;
+        }
+      }
+    }
+  }
+}

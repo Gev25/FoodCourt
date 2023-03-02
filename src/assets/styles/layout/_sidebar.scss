@@ -1,0 +1,35 @@
+.main__section{
+  display: flex;
+  position: relative;
+  left: -12px;
+  right: 0;
+  top: 18.5rem;
+}
+
+.main{
+  width: 100%;
+  display: flex;
+  padding-left: 2rem;
+
+}
+
+.left__menu{
+  display: flex;
+  flex-direction: column;
+  border: .1rem solid #f5b70a;
+  padding: 1rem;
+  line-height: 3.3rem;
+  text-align: left;
+}
+h4{
+  text-align: center;
+  font-size: 2.1rem;
+}
+
+ul > li > a{
+  cursor: pointer;
+  list-style-type: none;
+  &:hover{
+    color: #f5b70a !important;
+  }
+}

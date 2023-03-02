@@ -1,0 +1,150 @@
+.shop__container{
+  width: 100%;
+}
+
+.buy__btn:hover{
+  color:#F76E11;
+}
+
+.buy__btn {
+  position: relative;
+  width: 44rem;
+  right: -5.5rem;
+  bottom: 12rem;
+}
+.shop__section {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -48.8rem;
+  left: 18.7rem;
+  width: 90.1%;
+}
+
+.shop__product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buy__input{
+  border-radius: 2rem;
+  width: 6.5rem;
+  height: 3.5rem;
+  text-align: center;
+}
+
+.buy__block {
+  display: flex;
+  transition: 0.3s;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: #0d0d25;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 3.5rem;
+  border-radius: 3rem;
+  margin-top: -6.6rem;
+  margin-left: 13rem;
+  top: -3rem;
+  right: 7.2rem;
+}
+
+.buy__block button{
+  position: relative;
+  margin: 2rem 2rem;
+  bottom:8rem;
+}
+
+.buy__block input{
+  position: relative;
+  bottom:8rem;
+}
+.btn__add:hover{
+  color:#F76E11;
+}
+
+.ul__list{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.buys{
+  margin-top: 1.5rem;
+  margin-left: 25rem;
+}
+
+.total__price {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left: 11rem;
+  margin-top: -7rem;
+  top: -2rem;
+  right: 4rem;
+}
+.quantity__controller{
+  display: inline-flex;
+  margin-top: 11rem;
+  margin-left: 95rem;
+}
+
+.total__price > span{
+  color:#F76E11;
+  margin-left:0.5rem
+}
+
+.product__price{
+  position: absolute;
+  top: 57rem;
+  right: 36rem;
+}
+
+//----------------Media--------------------//
+
+
+@media screen and (min-width: 992px) {
+  @media (max-width: 991px) {
+    .shop__section{
+      width:90%
+    }
+  }
+}
+
+
+
+
+@media (min-width: 2100px) {
+  .shop__section{
+    width:90%
+  }
+}
+
+@media (max-width: 1399px) {
+
+}
+
+
+@media (max-width: 1199px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (max-width: 575px) {
+
+}
+
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 400px) {
+
+}

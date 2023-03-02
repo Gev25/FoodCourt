@@ -1,0 +1,38 @@
+.FormGroup {
+  margin: 0 1.5rem 2.0rem;
+  padding: 0;
+  border-style: none;
+  background-color: #7795f8;
+  will-change: opacity, transform;
+  box-shadow: 0 .6rem .9rem rgba(50, 50, 93, 0.06), 0 .2rem .5rem rgba(0, 0, 0, 0.08), inset 0 .1rem 0 #829fff;
+  border-radius: .4rem;
+}
+
+.FormRow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 1.5rem;
+  border-top: .1rem solid #819efc;
+}
+
+.StripeElement--webkit-autofill {
+  background: transparent !important;
+}
+
+.StripeElement {
+  width: 100%;
+  padding: 1.1rem 1.5rem 1.1rem 0;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+
+.modal-card{
+  margin-top: 15rem;
+  margin-left: 15rem;
+}

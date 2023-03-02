@@ -1,0 +1,27 @@
+.category__container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.category__img{
+    width: 45rem;
+    height: 32.5rem;
+    margin-top: -13rem;
+    margin-bottom: 3rem;
+}
+
+.prod__img{
+    width: 45rem;
+    height: 32.5rem;
+    margin-top:2rem;
+    box-shadow: 2.8rem 2.8rem 4.5rem #d4d4d4, -2.8rem -2.8rem 4.5rem #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.row{
+    width: 100%;
+    padding-left: 17rem;
+}

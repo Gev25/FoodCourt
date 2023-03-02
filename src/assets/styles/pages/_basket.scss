@@ -1,0 +1,229 @@
+#cart-container {
+  width: 100%;
+  margin: 15rem 15rem;
+}
+
+.table {
+  width: 100%;
+}
+
+#cart-container table{
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#cart-container table thead{
+  font-weight: 700;
+}
+
+#cart-container table thead td{
+  width: 100%;
+  height: 5rem;
+  outline: none !important;
+  padding: 1rem 1.5rem;
+  color: #ff8243;
+  -webkit-appearance: none;
+  border-radius: 1rem;
+  border: none;
+  background: #f8f8f8;
+  box-shadow: inset 0.6rem 0.6rem 0.8rem #dadada, inset -0.6rem -0.6rem 0.8rem #ffffff;
+}
+
+#cart-container table td{
+  border: 0.1rem solid #b6b3b3;
+  text-align: center;
+
+}
+
+#cart-container table tbody img{
+  width: 15rem;
+  height: 10rem;
+}
+
+#cart-container table tbody i{
+  color: red;
+  cursor: pointer;
+  font-size: 4rem;
+  text-align:center;
+
+}
+
+.total{
+  margin-left: 88rem;
+  margin-top: -11rem;
+
+}
+
+
+#cart-bottom .total > div {
+  border: 0.1rem solid #b6b3b3;
+  text-align: center;
+  width: 100rem;
+  position: relative;
+  right: 77rem;
+}
+
+#cart-bottom .total h2{
+  margin: .3rem 1.2rem 2rem 2rem;
+  display: flex;
+  transition: 0.3s;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: #ff8243;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 0.5rem 1.8rem;
+  border-radius: 3rem;
+  box-shadow: inset 0.8rem 0.8rem 1.2rem #e2e2e2, inset -0.8rem -0.8rem 1.2rem #ffffff;
+  background: #f3f3f5;
+}
+
+
+#cart-bottom .total div>div{
+  padding: 0 1.2rem;
+}
+
+#cart-bottom .total h6{
+  color: #2a2a2a;
+}
+
+.second-hr{
+  background: #b8b7b3;
+  width: 100%;
+  height: 0.1rem;
+}
+
+#cart-bottom .total div>button{
+  margin: 3rem 1.2rem 2rem 37rem;
+  display: flex;
+  transition: 0.3s;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: #0d0d25;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 0.5rem 1.8rem;
+  border-radius: 3rem;
+  &:hover{
+    color: #ff8243;
+    background: #f3f3f5;
+    box-shadow: inset 0.8rem 0.8rem 1.2rem #e2e2e2, inset -0.8rem -0.8rem 1.2rem #ffffff;
+  }
+}
+
+tbody{
+  margin-top:8rem !important;
+}
+
+
+.basket-count{
+  border-radius: 2rem;
+  width: 6.5rem;
+  height: 3.5rem;
+  text-align: center;
+}
+
+td>button{
+  border:none;
+}
+
+label {
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.label-form{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.label-form > input{
+  margin-left: 5rem;
+  border: 0.2rem solid #E0E0E0;
+  padding: 1rem 0 1rem 1rem;
+  border-radius: 1rem;
+  position: relative;
+  width: 44%;
+  background-color: white;
+  display: table;
+  margin-top: 1rem;
+}
+
+.checkbox{
+  display: flex;
+}
+
+.payment-title{
+  margin-top: 5rem;
+}
+.title-checkbox{
+  margin-top: -6rem;
+  margin-bottom: 8rem;
+  margin-right: 1rem;
+  position: relative;
+  top: 7.6rem;
+  left: 0;
+}
+
+.form-check-input{
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  left: 10rem;
+  top: -3rem;
+}
+
+.addres{
+  width: 100%;
+  height: 5rem;
+  outline: none !important;
+  padding: 1rem 1.5rem;
+  color: #0d0d25;
+  -webkit-appearance: none;
+  border-radius: 1rem;
+  border: none;
+  background: #f8f8f8;
+  box-shadow: inset 0.6rem 0.6rem 0.8rem #dadada, inset -0.6rem -0.6rem 0.8rem #ffffff;
+  margin-bottom: 2rem;
+}
+
+.form-select-lg {
+  height: 5rem;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.form-select-lg > option{
+  font-size: 1.7rem;
+}
+
+
+.ui-textarea {
+  border: 2px solid #E0E0E0;
+  padding: 4px 5px;
+  border-radius: 4px;
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+
+
+.ui-textarea textarea {
+  border: 0;
+  width: 100%;
+  outline: 0;
+  font: normal 14px Arial;
+  color: black;
+  resize: none;
+  min-height: 50px;
+  background-color: white;
+  padding: 0;
+}

@@ -1,0 +1,16 @@
+[class*="copyrights-pane"]{
+  display: none !important;
+}
+
+
+[class*="ground-pane"]{
+  filter: grayscale(1);
+}
+div{
+  border-radius: 1rem;
+}
+
+.map__container{
+  display: flex;
+  justify-content: center;
+}

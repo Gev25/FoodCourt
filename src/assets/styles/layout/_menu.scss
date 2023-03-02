@@ -1,0 +1,42 @@
+.filter-btn {
+  display: flex;
+  transition: 0.3s;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: #0d0d25;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 0.5rem 1.8rem;
+  border-radius: 3rem;
+}
+
+.filter-btn:hover{
+  color: #ff8243;
+  background: #f3f3f5;
+  box-shadow: inset .8rem .8rem 1.2rem #e2e2e2, inset -.8rem -.8rem 1.2rem #ffffff;
+}
+
+.menu__title {
+  color: #f5b70a;
+  text-align: center;
+}
+
+.button__block {
+  position: absolute;
+  top: 82rem;
+}
+
+.button__block:hover {
+  background: #F76E11;
+}
+
+
+.title__block {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.product__item {
+  margin-bottom: 4rem;
+}

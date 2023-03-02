@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+html{
+  font-size: 100vw / (1920/10);
+}
+
+body {
+  font-size: 1.5rem;
+  background: #f3f3f5;
+}
+
+/* hide arrows
+ Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield !important;
+}
+
+
+h1,
+h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+h3{
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Poppins",sans-serif;
+}
+p {
+  font-size: 1.8rem;
+  color: #c4c4c4;
+  line-height: 3rem;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  font-size: 2rem;
+}
+
+button{
+  border:none;
+}
+
+
+.loading{
+  width: 40px;
+  position: fixed;
+  height: 40px;
+  top: 16%;
+  left: 50%;
+  right: 0;
+}

@@ -1,0 +1,21 @@
+//-----------components-------------//
+@import "./header";
+@import "./offers";
+@import "./menu";
+@import "./category";
+@import "./product-card";
+@import "./slider";
+@import "./map";
+@import "./sidebar";
+@import "./single";
+@import "./modal";
+@import "./footer";
+@import './order';
+@import "payment";
+//-----------pages--------------//
+@import "../pages/shop";
+@import "../pages/logout";
+@import "../pages/profile";
+@import "../pages/register";
+@import "../pages/login";
+@import "../pages/basket";
